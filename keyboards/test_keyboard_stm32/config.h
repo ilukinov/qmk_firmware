@@ -20,3 +20,9 @@
 //#define NO_ACTION_ONESHOT
 #define I2C1_SCL_PIN        B9
 #define I2C1_SDA_PIN        B8
+#define I2C1_CLOCK_SPEED  400000
+#define I2C1_DUTY_CYCLE FAST_DUTY_CYCLE_2
+
+#define CIRQUE_PINNACLE_ADDR 0x2A
+#define POINTING_DEVICE_ROTATION_270
+#define POINTING_DEVICE_TASK_THROTTLE_MS 1  // when I removed this, cirque stopped working

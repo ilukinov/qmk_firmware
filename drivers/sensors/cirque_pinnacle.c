@@ -193,9 +193,11 @@ void cirque_pinnacle_tune_edge_sensitivity(void) {
 
 /*  Pinnacle-based TM040040 Functions  */
 void cirque_pinnacle_init(void) {
+    print("Before Init");
 #if defined(POINTING_DEVICE_DRIVER_cirque_pinnacle_spi)
     spi_init();
 #elif defined(POINTING_DEVICE_DRIVER_cirque_pinnacle_i2c)
+    print("Before i2c Init");
     i2c_init();
 #endif
 

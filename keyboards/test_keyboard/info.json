@@ -1,0 +1,29 @@
+{
+    "manufacturer": "ilukinov",
+    "keyboard_name": "test_keyboard",
+    "maintainer": "ilukinov",
+    "bootloader": "caterina",
+    "f_cpu": 16000000,
+    "diode_direction": "COL2ROW",
+    "features": {
+        "console": true
+    },
+    "matrix_pins": {
+        "cols": ["E6"],
+        "rows": ["D7"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0557",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_ortho_1x1": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 }
+            ]
+        }
+    }
+}
